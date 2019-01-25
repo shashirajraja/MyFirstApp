@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android ="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   Welcome to my first App"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:background="@color/colorAccent"
+    />
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/et1"
+    android:inputType="text"
+    android:gravity="center"
+    android:textSize="22sp"
+    android:textStyle="bold"
+    android:hint="Enter your Name"
+/>
+    <EditText android:layout_width="match_parent"                                     android:layout_height="wrap_content"
+    android:id="@+id/et2"
+    android:textStyle="bold"
+    android:textSize="20sp"
+    android:hint="Enter Email Id"
+    android:gravity="center"
+    android:inputType="textEmailAddress"/>
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Enter"
+    android:layout_gravity="center"
+    android:onClick="showText"
+    android:id="@+id/bt1"
+/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text=""
+    android:textSize="20sp"
+    android:textStyle="italic"
+    android:id="@+id/tv1"
+    android:textColor="@color/colorPrimaryDark"
+/>
+</LinearLayout>
